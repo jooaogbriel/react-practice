@@ -20,7 +20,9 @@ const App = () => {
       {profiles.map((profile, index) => 
         <Profile name={profile.name} age={profile.age} key={index}/>
       )}
-
+<h1>
+  projeto iniciado
+</h1>
     </Main>
   )
 }
